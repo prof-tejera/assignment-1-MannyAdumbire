@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useStopWatch } from "./UseStopWatch";
+import { useTimer } from "./UseTimer";
 import DisplayTime from "../generic/DisplayTime";
 import Panel from "../generic/Panel";
 import * as h from "../../utils/helpers.js";
@@ -30,7 +30,7 @@ const Tabata = () => {
     secsLeft,
     isRest,
     optionsRef,
-  } = useStopWatch({
+  } = useTimer({
     minutesPerRound,
     secondsPerRound,
     roundsTotal,

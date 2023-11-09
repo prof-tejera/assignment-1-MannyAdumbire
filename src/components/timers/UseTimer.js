@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import * as h from "../../utils/helpers.js";
 
-export const useStopWatch = (opt) => {
+export const useTimer = (opt) => {
   // Props that should cause component rerender.
   const [isRunning, setIsRunning] = useState(false);
   const [isRest, setIsRest] = useState(false);
