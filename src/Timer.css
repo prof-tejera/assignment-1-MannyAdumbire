@@ -1,0 +1,95 @@
+.timer-panel{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: black;
+    color:white;
+    height: 100%;
+    width: 100%;
+    margin: .2rem 0rem;
+    padding: .4rem;
+    font-family: ui-monospace;
+    font-size: medium;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+}
+
+.timer-inputs{
+    display: flex;
+    align-self: center;
+}
+.timer-input-group{
+    margin: 0 .2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+.timer-input-group label{
+    color: white;
+    font-size: normal;
+}
+setFastForward,
+.button-timer{
+    font-size: medium;
+    color: white;
+    position:relative;
+    padding: .8rem .2rem;
+    margin: .2rem;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    width: 4rem;
+    text-align: center;
+    justify-content: center;
+    box-shadow: -.1rem .1rem 0rem white;
+}
+.button-timer:hover{
+    cursor: pointer;
+}
+.button-timer:active{
+    background-color: gray;
+    top: .2rem;
+}
+.button-start{
+    color:black;
+    background-color: green;
+}
+.button-stop{
+    background-color: red;
+}
+.button-reset{
+    color:white;
+}
+
+.timer-actions{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.timer-display-group{
+    display:flex;
+}
+
+.timer-display-mode{
+    font-size:large;
+    color:white;
+}
+
+.timer-display-time{
+    font-size:xx-large;
+    color:lime;
+}
+.timer-display-mode-rest .timer-display-time{
+    color: olive;
+}
+.timer-display{
+    display: flex;
+    font-weight: bold;
+    font-size: 2rem;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+}
