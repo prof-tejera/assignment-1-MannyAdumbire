@@ -27,7 +27,9 @@ const Panel = ({ timers, buttons, children }) => {
           />
         ))}
       </div>
-      <div className="timer-display">{children}</div>
+      <div className="timer-display">
+        {children}
+        </div>
     </div>
   );
 };

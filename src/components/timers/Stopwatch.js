@@ -37,13 +37,13 @@ const Stopwatch = () => {
     // Calculate elapsed seconds.
     function getPassedSeconds() {
       const totalSecsPerRound = h.secsFromMinsSecs(
-        minutesPerRound,
-        secondsPerRound
+        optionsRef.current.minutesPerRound,
+        optionsRef.current.secondsPerRound
       );
       const totalSecsLeftRound = h.secsFromMinsSecs(minsLeft, secsLeft);
       return totalSecsPerRound - totalSecsLeftRound;
     }
-  }, [minutesPerRound, secondsPerRound, minsLeft, secsLeft]);
+  }, [minsLeft, secsLeft, optionsRef]);
 
   // Update timer options.
   useEffect(() => {

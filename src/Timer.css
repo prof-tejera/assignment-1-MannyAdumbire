@@ -18,7 +18,7 @@
 
 .timer-inputs{
     display: flex;
-    /* flex-direction: column; */
+    align-self: center;
 }
 .timer-input-group{
     margin: 0 .2rem;
@@ -67,11 +67,7 @@ setFastForward,
 .timer-actions{
     display: flex;
     flex-direction: row;
-}
-.timer-display{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
+    align-self: center;
 }
 .timer-display-group{
     display:flex;
@@ -94,5 +90,6 @@ setFastForward,
     font-weight: bold;
     font-size: 2rem;
     flex-direction: column;
-    align-self: end;
+    align-content: center;
+    align-self: center;
 }
