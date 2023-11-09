@@ -64,13 +64,13 @@ const XY = () => {
     });
   }
   const buttonTypes = [
+    { type: "fast-forward", onClick: handleFastForward, label: "FF" },
+    { type: "reset", onClick: handleReset, label: "RESET" },
     {
       type: isRunning ? "stop" : "start",
       label: isRunning ? "STOP" : "START",
       onClick: handleStartStop,
     },
-    { type: "reset", onClick: handleReset, label: "RESET" },
-    { type: "fast-forward", onClick: handleFastForward, label: "FF" },
   ];
   const timerInputs = [
     {
