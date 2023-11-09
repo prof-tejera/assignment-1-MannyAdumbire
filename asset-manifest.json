@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/assignment-1-MannyAdumbire/static/css/main.96bb360f.chunk.css",
+    "main.css": "/assignment-1-MannyAdumbire/static/css/main.bced419b.chunk.css",
     "main.js": "/assignment-1-MannyAdumbire/static/js/main.02569f31.chunk.js",
     "main.js.map": "/assignment-1-MannyAdumbire/static/js/main.02569f31.chunk.js.map",
     "runtime~main.js": "/assignment-1-MannyAdumbire/static/js/runtime~main.a76f1a49.js",
@@ -8,8 +8,8 @@
     "static/js/2.8fc8a4b0.chunk.js": "/assignment-1-MannyAdumbire/static/js/2.8fc8a4b0.chunk.js",
     "static/js/2.8fc8a4b0.chunk.js.map": "/assignment-1-MannyAdumbire/static/js/2.8fc8a4b0.chunk.js.map",
     "index.html": "/assignment-1-MannyAdumbire/index.html",
-    "precache-manifest.39bd1c98cbae823419a1ad7ee514391c.js": "/assignment-1-MannyAdumbire/precache-manifest.39bd1c98cbae823419a1ad7ee514391c.js",
+    "precache-manifest.6e89d6a2c183f704a7660cf6478de85e.js": "/assignment-1-MannyAdumbire/precache-manifest.6e89d6a2c183f704a7660cf6478de85e.js",
     "service-worker.js": "/assignment-1-MannyAdumbire/service-worker.js",
-    "static/css/main.96bb360f.chunk.css.map": "/assignment-1-MannyAdumbire/static/css/main.96bb360f.chunk.css.map"
+    "static/css/main.bced419b.chunk.css.map": "/assignment-1-MannyAdumbire/static/css/main.bced419b.chunk.css.map"
   }
 }
